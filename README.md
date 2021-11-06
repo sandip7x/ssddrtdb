@@ -44,7 +44,7 @@ Available parameters.
 | addSingleValueEventListener() | used to query and listen to *single* value object |
 | child() | it's used to refer a path in the database |
 | children | it's list of children which was created by child(), used to clear the list if needed |
-| push() | used to generate a unique keyID for the database. |
+| push() | used to generate a unique keyID for the database.(this might not work properly as of now.) |
 
 3. Implementation.
 
