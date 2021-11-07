@@ -30,7 +30,7 @@ This is SSDD's Realtime database. Which provides you realtime Database service o
 </dependency>
 ```
 
-1. Implement the Server.
+## Implement the Server.
 
 ___Version 1.*___
 
@@ -43,7 +43,7 @@ Any version except 1.* Would be stable release.
 
 > Server Implementation would be uploaded soon.
 
-2. Info.
+## Info.
 
 ## AvailableParameters
 
@@ -54,23 +54,23 @@ Any version except 1.* Would be stable release.
 | addSingleValueEventListener() | used to query and listen to *single* value object |
 | child() | it's used to refer a path in the database |
 | children | it's list of children which was created by child(), used to clear the list if needed |
-| push() | used to generate a unique keyID for the database.(this might not work properly as of now.) |
+| push() | used to generate a unique keyID for the database.(BETA(this might not work properly.)) |
 
-3. Implementation.
+## Implementation.
 
-*initiate connection:-
+* initiate connection:-
 
 ```java
 SSDD ssdd = new SSDD("yourServerIp/location", "wss"); //TODO to setup server see method 1.
 ```
 
-*to navigate to specific location:-
+* to navigate to specific location:-
 
 ```java
 ssdd.child("path/to/success");
 ```
 
-*to add/set value to the database:-
+* to add/set value to the database:-
 
 ```java
 ssdd.setValue("one step closer to success."); 
@@ -90,7 +90,7 @@ ssdd.child("path/to/success").setValue("one step closer to success.");
 ssdd.child("path").child("to").child("success").setValue("one step closer to success.");
 ```
 
-*to listen to a single value:-
+* to listen to a single value:-
 
 ```java
 ssdd.addSingleValueEventListener(new SingleValueEventListener() {
@@ -111,7 +111,7 @@ ssdd.addSingleValueEventListener(new SingleValueEventListener() {
             });
    ```
 
-*to listen to multiple values
+* to listen to multiple values
 
 ```java
 List<Model> models = new ArrayList<>();
@@ -142,8 +142,14 @@ List<Model> models = new ArrayList<>();
 **More information will be uploaded soon.**
 
 ## Changelog
+* V-1.0.1-BETA:- Major bug fixes. 
+* V-1.0.1:- Major bug fixes. 
+* V-1.0:- 1st official release.
 
 ## Credits
+> [Sandip](https://github.com/ssddcodes):- Creator, Developer of SSDDRTDB.
+> 
+> [Yamin](https://github.com/yamin8000):- Publishing and management.
 
 ## Licence
 
