@@ -51,7 +51,7 @@ Any version except 1.* Would be stable release.
 | setValue()   | used to push an object to database. |
 | addValueEventListener() |  used to query and listen to *multiple* values |
 | addSingleValueEventListener() | used to query and listen to *single* value object |
-| child() | it's used to refer a path in the database |
+| child() | it's used to refer a path in the database (BETA(this might not work properly.)) |
 | children | it's list of children which was created by child(), used to clear the list if needed |
 | push() | used to generate a unique keyID for the database.(BETA(this might not work properly.)) |
 
