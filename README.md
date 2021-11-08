@@ -15,7 +15,7 @@ This is SSDD's Realtime database. Which provides you realtime Database service o
 ### *Gradle*
 
 ```groovy
- implementation 'io.github.ssddcodes:rtdb:1.0.1-BETA'
+ implementation 'io.github.ssddcodes:rtdb:1.0.4-BETA'
 ```
 
 ### *Maven*
@@ -25,8 +25,7 @@ This is SSDD's Realtime database. Which provides you realtime Database service o
 <dependency>
     <groupId>io.github.ssddcodes</groupId>
     <artifactId>rtdb</artifactId>
-    <version>1.0.1</version>
-    <type>aar</type>
+    <version>1.0.4-BETA</version>
 </dependency>
 ```
 
@@ -142,9 +141,11 @@ List<Model> models = new ArrayList<>();
 **More information will be uploaded soon.**
 
 ## Changelog
+* V-1.0.4-BETA:- Public beta, extended support for all java projects. 
+* V-1.0.3-BETA:- Internal Tests.
+* V-1.0.2-BETA:- Internal Tests.
 * V-1.0.1-BETA:- Major bug fixes. 
 * V-1.0.1:- Major bug fixes. 
-* V-1.0:- 1st official release.
 
 ## Credits
 > [Sandip](https://github.com/ssddcodes):- Creator, Developer of SSDDRTDB.
