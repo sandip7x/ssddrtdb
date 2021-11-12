@@ -15,7 +15,7 @@ This is SSDD's Realtime database. Which provides you realtime Database service o
 ### *Gradle*
 
 ```groovy
- implementation 'io.github.ssddcodes:rtdb:1.0.4-BETA'
+ implementation 'dev.ssdd:rtdb:2.0'
 ```
 
 ### *Maven*
@@ -23,9 +23,9 @@ This is SSDD's Realtime database. Which provides you realtime Database service o
 ```xml
 
 <dependency>
-    <groupId>io.github.ssddcodes</groupId>
-    <artifactId>rtdb</artifactId>
-    <version>1.0.4-BETA</version>
+  <groupId>dev.ssdd</groupId>
+  <artifactId>rtdb</artifactId>
+  <version>2.0</version>
 </dependency>
 ```
 
